@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: Roboto+Condensed;
+}
+#block{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+    left: 20%;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 100px;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+img{
+    width: 50%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    filter: hue-rotate(120deg);
+    -webkit-filter: hue-rotate(120deg);
+}
+.padd{
+    padding: 30px;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    color: hsl(228, 12%, 48%);
+}
+#a10{
+    display: flex;
+    flex-direction: column;
+}
+#a314{
+    display: flex;
+    flex-direction: column;
+}
+#a12{
+    display:flex;
+    flex-direction: column;
+}
+#glob{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#glob p{
+    margin-top: -20px;
+}
+.attribution{
+    position: absolute;
+    margin-top: 600px;
+    right:200px;
+    color: white;
+}
